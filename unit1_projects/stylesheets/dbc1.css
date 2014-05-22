@@ -1,0 +1,38 @@
+/* #container and #background are examples of IDs */
+#container{ 
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #666;
+  background: #ffffff;
+}
+
+#background{
+	background-color: purple
+}
+
+/* .greenboldtext and .yellowboldtext are examples of classes */
+.greenboldtext{ 
+  font-size: small; 
+  color: #008080;
+  font-weight: bold;
+}
+
+.yellowboldtext{
+	font-size: 24;
+	color: yellow;
+	font-weight: bold;
+}
+
+h1 {font-family: "Times New Roman", serif;
+color: purple;
+font-size: 35}
+
+p {font-family: Tahoma, serif;}
+
+body {
+background: #eeeeee;
+font-family: "Trebuchet MS", Arial, serif;}
+
+strong {color: red;}
+em {color: blue;}
