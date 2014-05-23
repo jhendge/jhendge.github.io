@@ -1,0 +1,93 @@
+.container{
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    border: 5px solid blue;
+    background: #ffffff;
+}
+
+.image{
+	position: relative;
+}
+
+h2{
+	font-family: Arial;
+	color: black;
+	font-size: 40;
+	position: absolute;
+	top: 50px;
+	left: 180px;
+	bottom: 200px;
+	width: 100%;
+}
+
+#header{
+	font-family: Arial;
+	font-size: 50;
+	font-weight: bold;
+	border: 10px solid blue;
+	padding: 20px;
+	margin: auto;
+}
+
+#sidebar{
+	float: none;
+	position: fixed;
+	float: left;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 118px;
+	border: 1px solid blue;
+	margin: auto;
+	background: yellow;
+}
+
+#content_area{
+	float: none;
+	font-family: Arial;
+	font-size: 22;
+	margin: auto;
+	padding: 10px;
+	border: 1px solid blue;
+}
+
+#content_area a:link {color: #009900;}
+#content_area a:visited {color: #999999;}
+#content_area a:hover {color: #000099;}
+#content_area a:focus {color: #333333;}
+#content_area a:active {color: #009900;}
+
+#footer{
+	font-family: Arial;
+	font-size: 10;
+	margin: auto;
+	padding: 10px 10px 10px 10px;
+	border: 1px solid #666;
+	background: #fff;
+}
+
+#footer a:link {color: #009900;}
+#footer a:visited {color: #999999;}
+#footer a:hover {color: #ffff00;}
+#footer a:focus {color: #333333;}
+#footer a:active {color: #009900;}
+
+#list{
+	font-style: italic;
+	font-weight: bold;
+}
+
+.italic{
+	font-style: italic;
+}
+
+.blue{
+	color: blue;
+	font-weight: bold;
+}
+
+.yellow{
+	color: yellow;
+	font-weight: bold;
+}
