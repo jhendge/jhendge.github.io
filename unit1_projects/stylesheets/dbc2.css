@@ -2,7 +2,7 @@
     width: 80%;
     margin: auto;
     padding: 20px;
-    border: 5px solid blue;
+    border: 50px solid blue;
     background: #ffffff;
 }
 
@@ -50,6 +50,7 @@ h2{
 	margin: auto;
 	padding: 10px;
 	border: 1px solid blue;
+	line-height: 33px;
 }
 
 #content_area a:link {color: #009900;}
