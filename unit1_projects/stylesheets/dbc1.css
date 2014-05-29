@@ -24,15 +24,21 @@
 	font-weight: bold;
 }
 
-h1 {font-family: "Times New Roman", serif;
+h1{
+	font-family: "Times New Roman", serif;
 color: purple;
-font-size: 35}
+font-size: 35
+}
 
 p {font-family: Tahoma, serif;}
 
-body {
+body{
 background: #eeeeee;
 font-family: "Trebuchet MS", Arial, serif;}
 
-strong {color: red;}
-em {color: blue;}
+strong{
+	color: red;
+}
+em {
+	color: blue;
+}
