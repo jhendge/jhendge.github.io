@@ -18,7 +18,7 @@ h2{
 	top: 50px;
 	left: 180px;
 	bottom: 200px;
-	width: 100%;
+	width: 80%;
 }
 
 #header{
@@ -37,7 +37,7 @@ h2{
 	top: 0;
 	bottom: 0;
 	left: 0;
-	width: 118px;
+	width: 6%;
 	border: 1px solid blue;
 	margin: auto;
 	background: yellow;
