@@ -1,5 +1,6 @@
 #container{ 
     overflow: scroll;
+    height: 50%;
     width: 80%;
     margin: auto;
     padding: 20px;
