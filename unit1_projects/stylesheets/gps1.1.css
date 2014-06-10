@@ -1,0 +1,38 @@
+body {
+      background: #14a914;
+    }
+    
+.image-container {
+      text-align: center;
+    }
+    
+.image-container img {
+      height: 130px;
+      width: auto;
+      display: inline-block;
+    }
+    
+#container {
+      width: 80%;
+      margin: auto;
+      padding: 20px;
+      border: 5px solid #666;
+      background: #ADADAD;
+    }
+    
+header {
+      border-bottom: 5px solid #666;
+      text-align: center;
+    }
+    
+h5 {
+      font-size: 25px;
+    }
+    
+footer {
+      padding-top: 20px;
+      border-top: 5px solid #666;
+      margin-top: 30px;
+      text-align: center;
+      font-style: italic;
+    }
