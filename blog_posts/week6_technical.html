@@ -1,0 +1,64 @@
+<!DOCTYPE>
+<html>
+<div id="container">
+<head>
+<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css"href="http://jhendge.github.io/unit1_projects/stylesheets/blog.css"/>
+	</head>
+
+<body>
+	<h1><div id="header"><center>"Let's Get Technical" - Joe's Technical Blog</center></div></h1>
+
+	<h3><span class="italic"><u>Post #6 - Object-Oriented vs. Functional Programming</u></span></h3>
+
+    <h5>All programming is not made equal</h5>
+
+	<p>As a relative noob to the programming game, I always knew there were a variety of different programming languages that each existed to perform slightly, or in some cases totally, different things. I knew that HTML was used to build websites and that JavaScript, not Java, helped to make them more dynamic. I knew that C (yes, just "C") was popular for programming games and that there were a whole host of other languages with curious names like C++, C#, Perl, PHP, Pascal, and Ruby which I had practically no clue what they did but I knew they sounded pretty awesome.</p>
+
+	<p>What I didn't know was that these languages are actually split into different groups based on what <span class="italic">kind</span> of programming they perform. For instance, Ruby is part of the object-oriented programming (OOP) family and the OOP family alone. Others, like C++, are more versatile in nature and can be a part of a number of groups. C++ can perform imperative, structured, procedural, <span class="italic">and</span> OOP. Wow! But for the sake of this blog post and our precious time, I'm going to focus on just two of our programming groups: object-oriented and functional programming (FP).</p>
+
+	<p>While countless articles, white pages, and blog posts have been written about the differences between the aforementioned programming groups, my goal is not to try and compile all of that information into a sort of magnum opus blog post filled with technical jargon and hell bent on making sure I fulfill my "explanation" requirement while leaving you to choke on the dust of convoluted examples and misguided logic. Rather, my goal is to be direct and succinct. As a result, some of the following might come across as "short" and the reason for that is twofold: 1) these programming groups can be thought of as deep wells and the further you go down the well, the more intricate and complex the group becomes. As such, I'd only like to present you with a scoop of information from the top! 2) Programming is supposed to be fun so there's no point in scaring people away with things like, "side effects through monads" and "referential transparency" so let's move on before I make my own head hurt!</p>
+	
+	<!-- <div class="image"><img src="http://jhendge.github.io/unit1_projects/images/heroes.jpg" alt="IMAGE.jpg"/></div> -->
+
+	<!-- <span class="italic">all</span> -->
+
+	<!-- <div class="image"><img src="http://jhendge.github.io/unit1_projects/images/s_class.jpg" alt="IMAGE.jpg"/></div> -->
+
+	<h5>You down with OOP?</h5>
+
+	<p>At Dev Bootcamp, our primary focus is on class-based object-oriented languages such as Ruby. But what does "class-based object-oriented" even mean? Well, writing code suggests that we are creating or using exisiting data (for instance, variables) and doing something with it, giving it some kind of behavior. In Ruby, data and its coresponding behavior are wrapped together in one nice, pretty package called... wait for it... an <span class="italic"><strong>object</strong></span>. <span class="italic">Everything</span> in Ruby is an object. And these objects have behavior that is inherit to them and to the <span class="italic"><strong>classes</strong></span> that they belong to.</p>
+
+	<p>Classes, while they are not specifically referred to as objects, are indeed objects! They are objects that are organized to hold other objects. The reason why this is so very crucial and a key differentiating point between OOP and other forms of programming, such as functional, is because the operations that work with specific objects are <span class="italic">built</span> into the objects themselves instead of into the syntax of the language. Think about that... Because certain behaviors are built into objects, we do not need to re-code the behavior every time we want to use the object, it is already there. We can then manipulate objects or combine them to create new objects with new behaviors. The possibilities are seemingly endless. If behavior was built into the syntax and not the objects themseles, we would be limited to how the language was written and confined to the walls of its code. We could only do so much. <!-- These objects invoke one another's behavior by sending each other <span class="italic">messages</span>.  --></p>
+
+	<p>Now we can asnwer the question as to what a "class-based object-oritened" language is. Class-based OO languages like Ruby allow you to define a class that provides a blueprint for the construction of similar objects. A class defines <span class="italic">methods</span> (definitions of behavior) and <span class="italic">attributes</span> (definitions of variables). Objects invoke one another's behavior by sending each other <span class="italic">messages</span> and methods get called on in response to messages. As such, it is up to Ruby to find and invoke the right method of the correct object for any message sent.</p>
+
+	<p>The nice part about Ruby is that we don't have to create tons of new classes (though we totally can), it comes with a number of predefined classes. There's a String class that defines strings (letters, words, etc.) and one another, Fixnum, which defines integers. There's actually a pre-exisiting class for every data type that you would expect a programming language to supply. But as I mentioned above, since classes are objects and objects' inherant behavior can be altered, we aren't limited to a small set of built-in types and pre-predefined operations. Instead, we can invent brand new types on our own. Each OO application thus gradually becomes a unique programming language that is specifically tailored to our own domain.</p>
+
+	<p>Now you might be wondering to yourself, "If we can customize our OOP language to fit our needs and do what we want, then why aren't all languages written like this? What does functional programming bring to the table?" Well, let's check out FP and see how it differs from OOP.
+
+	<!-- <div class="image"><img src="http://jhendge.github.io/unit1_projects/images/i_vars.jpg" alt="IMAGE.jpg"/></div> -->
+
+	<h5>(Fun)ctional programming?</h5>
+
+	<p>In FP, programs are executed by evaluating expressions (like mathematical expressions!), in contrast with OOP where programs are composed of methods and statements which change the state of objects. Since mathematical expressions are typically seen in academia, FP has long been popular in that sphere. Afterall, the primary focus of FP <span class="italic">is</span> on the return values of functions and that's not really what Ruby and other OOP languages are all about. OOP programs tend to emphasize the series of steps taken by a program in carrying out an action, while functional programs tend to focus on the composition and arrangement of functions, often without specifying steps. In this sense, FP and OOP are opposites. In order to highlight this, I have included an example below which illustrates the difference between how an OOP language like Ruby or Python might deal with calculating Fibonacci numbers and how an FP language such as Haskell would handle it. </p>
+
+	<div class="image"><img src="http://jhendge.github.io/unit1_projects/images/fib_ruby.jpg" alt="IMAGE.jpg"/></div>
+
+	<div class="image"><img src="http://jhendge.github.io/unit1_projects/images/fib_haskell.jpg" alt="IMAGE.jpg"/></div>
+
+	<p></p>
+
+	<ul>
+	<li></li>
+	<li></li>
+	<li></li>
+	</ul>
+
+
+<footer><div id="footer"><span class="italic">Written by Joseph T.X. Hendele. Posted on July 13, 2014.</span></div></footer>
+
+</body>
+</div>
+</html>
