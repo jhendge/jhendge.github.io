@@ -83,6 +83,16 @@ h4{
     line-height: 30px;
 }
 
+.week6{
+    width: 20%;
+    margin: auto;
+    padding: 5px;
+    border: 2px solid #666;
+    background: #fff000;
+    display: inline-block;
+    line-height: 30px;
+}
+
 img{
 	display: block;
 	margin-left: auto;
