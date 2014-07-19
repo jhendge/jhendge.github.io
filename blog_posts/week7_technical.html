@@ -12,35 +12,36 @@
 
 	<h3><span class="italic"><u>Post #7 - SQL Injection</u></span></h3>
 
-    <h5>All programming is not made equal</h5>
+	<div class="image"><img src="http://jhendge.github.io/unit1_projects/images/SQL_comic.jpg" alt="IMAGE.jpg"/></div>
 
-	<p></p>
+    <h5>Sweet, sweet databases</h5>
 
-	<p></p>
+	<p>This past week has been dedicated to learning some of the many wonders of databases and database management (SQL - Structured Query Language - in particular). I know I know, "databases" and "database management" are seminally unsexy terms, but give me a chance to explain why they're awesome.</p>
 
-	<p></p>
-	
-	<!-- <div class="image"><img src="http://jhendge.github.io/unit1_projects/images/heroes.jpg" alt="IMAGE.jpg"/></div> -->
+	<p>Databases save your account information so that you can log in to Facebook. They store your online banking password. They contain your address, email, phone number, social security number, and a whole host of other personal information you probably want to be kept private. You can picture them as digital Excel spreadsheets, with information stored in cells that are organized in rows and columns. The good news about all of this store info? Well-coded web applications will keep your information safe and protected. The bad news? Even well-coded web apps, and especially poorly coded ones, can be susceptible to an SQL injection (*cue ominous music*). Before I can say another word about this nasty guy, let's introduce ourselves to SQL.</p>
+
+	<h5>What is SQL?</h5>
+
+	<p>If databases store information, then SQL manages it. SQL can add a column for your date of birth. It can delete your social security number from the database. It can give us a list of every Facebook user whose first name is "Joseph" or even give us every piece of stored information for <span class="italic">every</span> Facebook user. SQL is both very powerful, <span class="italic">and</span> very easy to use. This bodes very well for me, a new programmer learning to work with databases, and very bad for those that want to protect them. After all, if it's easy to use, it's easy for <span class="italic">everyone</span> to use, including those that want to steal your information. And speaking of stealing information, I present to you our nemesis, SQL injection.</p>
+
 
 	<!-- <span class="italic">all</span> -->
 
 	<!-- <div class="image"><img src="http://jhendge.github.io/unit1_projects/images/s_class.jpg" alt="IMAGE.jpg"/></div> -->
 
-	<h5>You down with OOP?</h5>
+	<h5>Now for the injection</h5>
 
-	<p></p>
+	<p>If databases store information and SQL manages it, then an SQL injection is when a hacker takes advantage of improper coding to a web application and "injects" an SQL command into a form - let's say a Facebook login form - and gains access to <span class="italic">your</span> private data within the database. How does this happen?</p>
 
-	<p></p>
+	<p>Let's stick with our Facebook login form example. When legitimate users submit their email and password, an SQL query is generated from these details and submitted to the database for verification. If valid, these users are allowed access into their Facebook pages. However, non-legitimate users may use an SQL injection comprised of specifically crated SQL commands to bypass the login form barrier and access users' account information. So if a web application hasn't been coded properly, i.e. without securitiy provisions in mind, it will certainly be more susceptible to injections.</p>
 
-	<p></p>
+	<p>While the example above focuses on a login page, SQL injections are not limited to just that type of application. Support and product request forms, feedback forms, search pages, and online shopping carts are all at risk because the fields available for user input allow SQL statements to pass through and query the database directly. So what can be done?</p>
 
-	<p></p>
+	<h5></h5>
 
 	<p></p>
 
 	<!-- <div class="image"><img src="http://jhendge.github.io/unit1_projects/images/i_vars.jpg" alt="IMAGE.jpg"/></div> -->
-
-	<h5>(Fun)ctional programming?</h5>
 
 	<p></p>
 
