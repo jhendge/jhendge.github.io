@@ -35,11 +35,13 @@
 
 	<p>Let's stick with our Facebook login form example. When legitimate users submit their email and password, an SQL query is generated from these details and submitted to the database for verification. If valid, these users are allowed access into their Facebook pages. However, non-legitimate users may use an SQL injection comprised of specifically crated SQL commands to bypass the login form barrier and access users' account information. So if a web application hasn't been coded properly, i.e. without securitiy provisions in mind, it will certainly be more susceptible to injections.</p>
 
-	<p>While the example above focuses on a login page, SQL injections are not limited to just that type of application. Support and product request forms, feedback forms, search pages, and online shopping carts are all at risk because the fields available for user input allow SQL statements to pass through and query the database directly. So what can be done?</p>
+	<p>While the example above focuses on a login page, SQL injections are not limited to just that type of application. Support and product request forms, feedback forms, search pages, and online shopping carts are all at risk because the fields available for user input allow SQL statements to pass through and query the database directly, just as web applications are supposed to do. So what can be done?</p>
 
-	<h5></h5>
+	<h5>Potential solutions</h5>
 
-	<p></p>
+	<p>Unfortunately, this section will be pretty short because there isn't a ton that can be done. As I mentioned, coding your web applications with security in mind is a plus, but certainly not a complete fix. Patching your servers, databases, programming language and operating systems is also critical but again, not a cure-all. After all, since your website needs to be public, security mechanisms will allow public web traffic to communicate with your databases servers through web applications.</p>
+
+	<p>That's what the applications have been designed to do, right?</p>
 
 	<!-- <div class="image"><img src="http://jhendge.github.io/unit1_projects/images/i_vars.jpg" alt="IMAGE.jpg"/></div> -->
 
