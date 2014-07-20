@@ -18,7 +18,7 @@
 
 	<p>This past week has been dedicated to learning some of the many wonders of databases and database management (SQL - Structured Query Language - in particular). I know I know, "databases" and "database management" are seminally unsexy terms, but give me a chance to explain why they're awesome.</p>
 
-	<p>Databases save your account information so that you can log in to Facebook. They store your online banking password. They contain your address, email, phone number, social security number, and a whole host of other personal information you probably want to be kept private. You can picture them as digital Excel spreadsheets, with information stored in cells that are organized in rows and columns. The good news about all of this store info? Well-coded web applications will keep your information safe and protected. The bad news? Even well-coded web apps, and especially poorly coded ones, can be susceptible to an SQL injection (*cue ominous music*). Before I can say another word about this nasty guy, let's introduce ourselves to SQL.</p>
+	<p>Databases save your account information so that you can log in to Facebook. They store your online banking password. They contain your address, email, phone number, social security number, and a whole host of other personal information you probably want to be kept private. You can picture them as digital Excel spreadsheets, with information stored in cells that are organized in rows and columns. The good news about all of this stored info? Well-coded web applications will keep your information safe and protected. The bad news? Even well-coded web apps, and especially poorly coded ones, can be susceptible to an SQL injection (*cue ominous music*). Before I can say another word about this nasty guy, let's introduce ourselves to SQL.</p>
 
 	<h5>What is SQL?</h5>
 
@@ -33,15 +33,25 @@
 
 	<p>If databases store information and SQL manages it, then an SQL injection is when a hacker takes advantage of improper coding to a web application and "injects" an SQL command into a form - let's say a Facebook login form - and gains access to <span class="italic">your</span> private data within the database. How does this happen?</p>
 
-	<p>Let's stick with our Facebook login form example. When legitimate users submit their email and password, an SQL query is generated from these details and submitted to the database for verification. If valid, these users are allowed access into their Facebook pages. However, non-legitimate users may use an SQL injection comprised of specifically crated SQL commands to bypass the login form barrier and access users' account information. So if a web application hasn't been coded properly, i.e. without securitiy provisions in mind, it will certainly be more susceptible to injections.</p>
+	<p>Let's stick with our Facebook login form example. When legitimate users submit their email and password, an SQL query is generated from these details and submitted to the database for verification. If valid, these users are allowed access into their Facebook pages. However, non-legitimate users may use an SQL injection comprised of specifically crated SQL commands to bypass the login form barrier and access users' account information. So if a web application hasn't been coded properly, i.e. without security provisions in mind, it will certainly be more susceptible to injections.</p>
 
 	<p>While the example above focuses on a login page, SQL injections are not limited to just that type of application. Support and product request forms, feedback forms, search pages, and online shopping carts are all at risk because the fields available for user input allow SQL statements to pass through and query the database directly, just as web applications are supposed to do. So what can be done?</p>
 
 	<h5>Potential solutions</h5>
 
-	<p>Unfortunately, this section will be pretty short because there isn't a ton that can be done. As I mentioned, coding your web applications with security in mind is a plus, but certainly not a complete fix. Patching your servers, databases, programming language and operating systems is also critical but again, not a cure-all. After all, since your website needs to be public, security mechanisms will allow public web traffic to communicate with your databases servers through web applications.</p>
+	<p>Fortunately, there are a few techniques that can be implemented to reduce the risk of an SQL injection and they are as follows:
+	
+	<ul>
+		<li>Prepared Statements</li>
+		<li>Stored Procedures</li>
+		<li>Escaping All User Supplied Input</li>
+		<li>Least Privilege</li>
+		<li>White List Input Validation</li>
+	</ul>
 
-	<p>That's what the applications have been designed to do, right?</p>
+	<p>For a new programmer like myself, prepared statements are the first and best line of defense for preventing SQL injections. Prepared statements, or parameterized queries, force the developer to first define all the SQL code and then pass in each parameter to the query later. This technique allows the database to distinguish between code and data, regardless of the user input. Such prepared statements ensure that a hacker is not able to change the intent of a query, even if SQL commands are inserted by a hacker</p>
+
+	<p>As I mentioned, coding your web applications with security in mind and using prepared statements is a plus, but certainly not a complete fix. Patching your servers, databases, programming language and operating systems is also critical but again, not a cure-all. After all, since your website needs to be public, security mechanisms will allow public web traffic to communicate with your databases servers through web applications, which is exactly what you want.</p>
 
 	<!-- <div class="image"><img src="http://jhendge.github.io/unit1_projects/images/i_vars.jpg" alt="IMAGE.jpg"/></div> -->
 
@@ -49,20 +59,7 @@
 
 	<p></p>
 
-
-	<!-- <div class="image"><img src="http://jhendge.github.io/unit1_projects/images/fib_ruby.jpg" alt="IMAGE.jpg"/></div> -->
-	
-
-	<!-- <div class="image"><img src="http://jhendge.github.io/unit1_projects/images/fib_haskell.jpg" alt="IMAGE.jpg"/></div> -->
-
-	<p></p>
-
-	<p></p>
-
-	<p></p>
-
-
-<footer><div id="footer"><span class="italic">Written by Joseph T.X. Hendele. Posted on July 19, 2014.</span></div></footer>
+<footer><div id="footer"><span class="italic">Written by Joseph T.X. Hendele. Posted on July 20, 2014.</span></div></footer>
 
 </body>
 </div>
