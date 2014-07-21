@@ -12,8 +12,8 @@ body {
 }
 
 #top-line {
-  height: 5px;
-  background-color: #2ecc71;
+  height: 8px;
+  background-color: #0047B2;
   margin-bottom: 48px;
 }
 
@@ -25,7 +25,7 @@ body {
 
 
 header {
-  border-bottom: 1px solid #2ecc71;
+  border-bottom: 1px solid #0047B2;
   margin-bottom: 48px;
 }
 
@@ -70,7 +70,7 @@ article h3 {
 }
 
 article a { 
-  color: #2ecc71;
+  color: #0047B2;
   text-decoration: none; 
 }
 
@@ -82,14 +82,14 @@ footer {
 }
 
 footer a {
-  color: #2ecc71;
+  color: #0047B2;
   text-decoration: none;
   padding: 5px;
 }
 
 footer a:hover {
   color: #fff;
-  background-color: #2ecc71;
+  background-color: #0047B2;
 }
 
 /* mobile */
