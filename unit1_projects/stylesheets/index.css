@@ -56,7 +56,10 @@ border-bottom: 1px solid rgba(255,255,255,0.6);
 transition: color .3s ease, border-color .3s ease;
 }
 
-
+nav li a:hover {
+color: #2c3e50;
+border-color: #2c3e50;
+}
 
 .wrapper {
   margin: 0 auto 100px;
