@@ -1,8 +1,7 @@
 /* GENERAL STYLES */
-*{
-  padding:0;
-  margin:0;
-  box-sizing:border-box;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 html {
@@ -28,21 +27,12 @@ body {
   background: white;
 }
 
-/*#top-line {
+#top-line {
+  position: relative;
   height: 40px;
+  width: 100%;
   background-color: #0047B2;
   margin-bottom: 48px;
-}*/
-
-header {
-position: relative;
-top: 0;
-height: 200px;
-width: 100%;
-background-color: #0047B2;
-border-bottom: 40px solid rgba(0,0,0,.7);
-border-top: 40px solid rgba(0,0,0,.7);
-box-shadow: 0 2px 5px black;
 }
 
 .wrapper {
@@ -51,6 +41,17 @@ box-shadow: 0 2px 5px black;
   padding: 0 20px;
 }
 
+/*header{
+  position: relative;
+  top:0;
+  height: 200px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, .4);
+  background-image: url(images/bg_image.jpg);
+  border-bottom: 40px solid rgba(0,0,0,.7);
+  border-top: 40px solid rgba(0,0,0,.7);
+  box-shadow: 0 2px 5px black;
+}*/
 
 /* ABOUT SECTION */
 aside {
