@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="cheatsheet.css">
+  </head>
+  
+  <body>
+    <header>
+      <div class="container"><h1>CSS Cheat Sheet</h1></div>
+    </header>
+    <section class="container body-content">
+      <table>
+        <tr>
+          <th colspan="2">
+            SELECTORS
+          </th>
+        </tr>
+        <tr><td class="first-column">.class</td><td>Selects all elements with class="class"</td></tr>
+        <tr><td class="first-column">#id</td><td>Selects all elements with id="id"</td></tr>
+        <tr><td class="first-column">*</td><td>Selects all elements</td></tr>
+        <tr><td class="first-column">div p</td><td>Selects all p elements inside div elements</td></tr>
+        <tr><td class="first-column">div>p</td><td>Selects all p elements that are direct children of div elements</td></tr>
+        <tr><td class="first-column">[target]</td><td>Selects all elements that have a target attribute</td></tr>
+        <tr><td class="first-column">[target="_blank"]</td><td>Selects all elements that have a target attribute set to "_blank"</td></tr>
+        <tr><td class="first-column">:first-child</td><td>Selects every p element that is the first child of its parent (p:first-child). Also includes :last-child.</td></tr>
+        <tr><td class="first-column">:first-of-type</td><td>Selects the first element of a certain type (p:first-of-type). Also includes :last-of-type.</td></tr>
+        <tr><td class="first-column">:hover</td><td>Selects all elements that are being hovered over.</td></tr>
+      </table>
+    </section>
+    
+    <section class="container body-content">
+      <table>
+        <tr>
+          <th colspan="2">
+            ESSENTIALS
+          </th>
+        </tr>
+        <tr><td class="first-column">background</td><td>background-image, -position, -size, -repeat, -attachment, -origin, -clip, -color</td></tr>
+        <tr><td class="first-column">border</td><td>border-width, -style, -color</td></tr>
+        <tr><td class="first-column">margin</td><td>margin-top, -right, -bottom, -left</td></tr>
+        <tr><td class="first-column">padding</td><td>padding-top, -right, -bottom, -left</td></tr>
+        <tr><td class="first-column">display</td><td>block | inline-block | inline | none</td></tr>
+        <tr><td class="first-column">width</td><td>auto | % | length</td></tr>
+        <tr><td class="first-column">height</td><td>px | % | em | auto</td></tr>
+        <tr><td class="first-column">font-family</td><td>family-name, generic-family, inherit</td></tr>
+        <tr><td class="first-column">font-size</td><td>px | % | em | inherit</td></tr>
+        <tr><td class="first-column">color</td><td>HEX | inherit</td></tr>
+        <tr><td class="first-column">opacity</td><td>decimal | inherit</td></tr>
+        <tr><td class="first-column">position</td><td>static | absolute | relative</td></tr>
+        <tr><td class="first-column">float</td><td>left | right | none</td></tr>
+        <tr><td class="first-column">z-index</td><td>auto | integer</td></tr>
+      </table>
+    </section>
+    
+  </body>
+</html>
