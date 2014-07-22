@@ -1,5 +1,77 @@
 <!DOCTYPE>
 <html>
+<!-- <div id="container"> -->
+<head>
+<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css"href="http://jhendge.github.io/unit1_projects/stylesheets/blog.css"/>
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+	</head>
+
+<!-- href="http://jhendge.github.io/unit1_projects/stylesheets/blog.css"/> -->
+
+<!-- href="file:///Users/josephhendele/jhendge.github.io/unit1_projects/stylesheets/index.css"/> -->
+
+<body>
+	<div id="top-line">&nbsp;</div>
+	<div class="wrapper">
+		<header>
+			<h2>Class is in session</h2>
+			<p>Published July 6, 2014, by @jhendge</p>
+		</header>
+		<article>
+			<img src="http://jhendge.github.io/unit1_projects/images/SQL_comic.jpg">
+			<h3>Classes: what are they good for?</h3>
+			<p class="first-letter">
+				When I was about 10 years old, I had a shoebox filled with hundreds of super hero "baseball cards." Each card listed specific information pertaining to the hero such as name, height, weight, diet, super power, and weakness, similar to that of a baseball card (except of course a baseball card would include things like batting average, RBIs, etc.). I used to love spreading the cards out on the floor and grouping them together by similar attributes, creating battle scenarios in my head I went along. As I received more and more cards on birthdays and holidays, it became increasingly difficult to keep track of everyone and the groups simply became too large to display on my floor. I needed a better way of keeping track of everything!
+			</p>
+			<p>
+				Now that I'm a little bit older than 10 and have a renewed interest in super heroes (not really, but let's go with it!), I want to use my newfound Ruby skills to organize my new cads. I suppose I could store my cards in their own separate hashes like this...
+			</p>
+			<img src="http://jhendge.github.io/unit1_projects/images/heroes.jpg">
+			<p>
+				Now I just need to create about 200 more hashes and I should be all set. Seems a little cumbersome, doesn't it? What happens when I get new cards? Should I just create more hashes? Maybe I should make one big hash to store them <span class="italic">all</span> in? What do I do when I want my superhoes to actually do stuff (you know, like methods!) like #eat, #travel, and #sleep? Well, by now I'm sure you've guessed that hashes might not be the most efficient solution to our storing and method-creating needs and that there's probably a simpler way. If that's what you're thinking, you are absolutely correct. And if you think that the simpler way has to do with creating a class for our superheroes, you are on to something.
+			</p>
+			<p>
+				By creating a class, we can write methods once and have them run on all of our superhero objects. This is amazing and will save us a ton of time because now we don't have to write methods for each individual superhero. Think about how long that would've taken - Whew! So let's go ahead and start putting together our superhero class.
+			</p>
+			<img src="http://jhendge.github.io/unit1_projects/images/s_class.jpg">
+
+			<h3>For instance: variables and methods</h3>
+			<p class="first-letter">
+				Now that we have the bare bones skeleton of our class, we need to give it some variables and get it ready for use. In order to do this, we will use a special method in the class called #initialize. By adding the #initialize method, our superhero class will look a little bit like the following:
+			</p>
+			<img src="http://jhendge.github.io/unit1_projects/images/i_vars.jpg">
+			<p>
+				You might be wondering what those funny-looking things that look like variables with the "@" sign in front of them are. As it turns out, they <span class="italic">are</span> variables with the "@" sign in front of them, and they are referred to as Instance Variables. We don't want all of our superheroes to have the same strength, so we use instance variables to take care of that. These variables are designated with the @variable_name notation and are able to be used in the same <span class="italic">way</span> for every instance of Superhero but will have a unique <span class="italic">value</span> for each. We already knew that classes shared methods; now we know that they share variables as well.
+			</p>
+			<p>
+				Now that we have our superhero variables, let's give our superheroes some actions, or methods. Since these methods will get called on an individual instance of the Superhero class, they are called <strong>Instance Methods</strong>. These methods are intended for use by <span class="italic">all</span> instances of the Superhero class whereas the methods we are used to defining, the ones outside of classes, typically belong to one object.
+			</p>
+			<img src="http://jhendge.github.io/unit1_projects/images/i_meths.jpg">
+			<p>
+				As you can see, the #attack and #sleep instance methods don't look much different than methods we've created in the past, they just act in a slightly different way because they are contained within our Superhero class. I could go on and on about classes but we'll have to save some of that good stuff (i.e. getters and setters!) for another blog post. Before I go though, I'd like to leave you with a (rather mediocre) haiku:
+			</p>
+
+			<ul>
+				<li>Ruby classes in the file</li>
+				<li>instances of variables and methods</li>
+				<li>play together like friends</li>
+			</ul>
+
+		</article>
+		<footer>
+			<a href="http://jhendge.github.io">back to my home</a>
+		</footer>
+	
+</body>
+</html>
+
+
+
+
+<!-- <!DOCTYPE>
+<html>
 <div id="container">
 <head>
 <meta charset="utf-8">
@@ -51,4 +123,4 @@
 
 </body>
 </div>
-</html>
+</html> -->
