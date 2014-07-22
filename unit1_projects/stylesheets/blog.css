@@ -80,6 +80,11 @@ ul {
     padding-bottom: 15px;
 }
 
+.italic{
+    font-style: italic;
+    font-family: 'Open Sans', sans-serif;
+}
+
 
 footer {
   text-align: center;
