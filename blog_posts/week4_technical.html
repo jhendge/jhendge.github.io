@@ -1,5 +1,58 @@
 <!DOCTYPE>
 <html>
+<!-- <div id="container"> -->
+<head>
+<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css"href="http://jhendge.github.io/unit1_projects/stylesheets/blog.css"/>
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+	</head>
+
+<!-- href="http://jhendge.github.io/unit1_projects/stylesheets/blog.css"/> -->
+
+<!-- href="file:///Users/josephhendele/jhendge.github.io/unit1_projects/stylesheets/index.css"/> -->
+
+<body>
+	<div id="top-line">&nbsp;</div>
+	<div class="wrapper">
+		<header>
+			<h2>The Enumerable #map Method</h2>
+			<p>Published June 29, 2014, by @jhendge</p>
+		</header>
+		<article>
+			<img src="http://jhendge.github.io/unit1_projects/images/computer.jpg">
+			<h3>What is "Enumerable?"</h3>
+			<p class="first-letter">
+				Over the course of the last few weeks Dev Bootcamp members ("boots") have learned quite a bit about the Array and Hash classes, and how to use each to not only store information (everything from letters of the alphabet to items needed at the grocery store), but be able to access it as well. Each class is unique in that they have their own methods for adding, deleting, and accessing data, and even implement their own techniques for iterating over their elements. That's awesome. But what makes them really stellar and effective is their ability to use Enumberable methods in addition to ordinary ones. In particular, I'm going to focus on the Enumerable #map method today but before we can dive in, we've got to figure out what Enumerable is all about!
+			</p>
+			<p>
+				It's important to think of Enumerable as a module (because it is!), which means it's just a bunch of methods that are packaged together and can be "mixed in", or included, with other classes (like our friends Array and Hash). This is pretty great because it means that us lazy programmers can write these methods once, save them as Enumerable, and include them in Array and Hash. So now that we know what Enumerable is, let's move on to the #map method.
+			</p>
+			<h3>"Mapping" it out</h3>
+			<p class="first-letter">
+				In Ruby, sometimes we'll take an array and want to do something to each element of the array, and then have the results "collected", or printed out, so that we can see what happened. Sounds like we would be able to use the #collect method, right? After all, #collect <span class="italic">will</span> run your block (of code) and give you an object filled with whatever your block returned each time. For instance, what if we were given an array of integers and we wanted to see the square of each integer printed out? We would do something like this:
+			</p>
+			<img src="http://jhendge.github.io/unit1_projects/images/collect.jpg">
+			<p>
+				Great! So now you can see what the #map ..err.. #collect method does and how it can be used. Wait, you thought this blog post was about the Enumerable #map method? Turns out, we actually just learned about #map as well. That's right - it's the <span class="italic">EXACT</span> same method as #collect, just called... #map. Take a look.
+			</p>
+			<img src="http://jhendge.github.io/unit1_projects/images/map.jpg">
+			<p>
+				I know, I know, this begs the obvious: why would there be two methods that do the exact same thing? I've searched numerous resources and like myself, I'm sure you'll be disappointed to learn that there really isn't any adequate explanation as to why two methods were created to to do the exact same thing. Of course, programmers might have a preference as to which they would rather use based on what they perceive to be more intuitive, but that certainly doesn't answer the question "why". Amazing, I know. I will continue searching and will update this post as soon as I uncover a better answer!
+			</p>
+
+		</article>
+		<footer>
+			<a href="http://jhendge.github.io">back to my home</a>
+		</footer>
+	
+</body>
+</html>
+
+
+
+<!-- <!DOCTYPE>
+<html>
 <div id="container">
 <head>
 <meta charset="utf-8">
@@ -16,12 +69,12 @@
 
 	<p>Over the course of the last few weeks Dev Bootcamp members ("boots") have learned quite a bit about the Array and Hash classes, and how to use each to not only store information (everything from letters of the alphabet to items needed at the grocery store), but be able to access it as well. Each class is unique in that they have their own methods for adding, deleting, and accessing data, and even implement their own techniques for iterating over their elements. That's awesome. But what makes them really stellar and effective is their ability to use Enumberable methods in addition to ordinary ones. In particular, I'm going to focus on the Enumerable #map method today but before we can dive in, we've got to figure out what Enumerable is all about!</p>
 
-	<p>It's important to think of Enumerable as a module (because it is!), which means it's just a bunch of methods that are packaged together and can be "mixed in", or included, with other classes (like our friends Array and Hash). This is pretty great because it means that us lazy programmers can write these methods once, save them as Enumerable, and include them in Array and Hash. So now that we know what Enumerable is, let's move on to the #map method.</p>
+	<p>It's important to think of Enumerable as a module (because it is!), which means it's just a bunch of methods that are packaged together and can be "mixed in", or included, with other classes (like our friends Array and Hash). This is pretty great because it means that us lazy programmers can write these methods once, save them as Enumerable, and include them in Array and Hash. So now that we know what Enumerable is, let's move on to the #map method.</p> -->
 
 
 <!-- <div class="image"><img src="http://jhendge.github.io/unit1_projects/images/JS_chart.jpg" alt="IMAGE.jpg"/></div> -->
 
-	<h5>"Mapping" it out</h5>
+	<!-- <h5>"Mapping" it out</h5>
 
 	<p>In Ruby, sometimes we'll take an array and want to do something to each element of the array, and then have the results "collected", or printed out, so that we can see what happened. Sounds like we would be able to use the #collect method, right? After all, #collect <span class="italic">will</span> run your block (of code) and give you an object filled with whatever your block returned each time. For instance, what if we were given an array of integers and we wanted to see the square of each integer printed out? We would do something like this:</p>
 
@@ -38,4 +91,4 @@
 
 </body>
 </div>
-</html>
+</html> -->
