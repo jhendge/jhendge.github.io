@@ -28,7 +28,7 @@ body {
 }
 
 #top-line {
-  position: fixed;
+  position: relative;
   height: 40px;
   width: 100%;
   background-color: #0047B2;
