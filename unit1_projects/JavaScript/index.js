@@ -19,12 +19,12 @@
 
 $(document).ready(function(){
 
-$('li').on('mouseover', function(e){
+$('img').on('mouseover', function(e){
      e.preventDefault();
     $(this).attr('src', 'http://phenomena.nationalgeographic.com/files/2013/01/Chinese_mantis2.jpg');
   });
 
-$('li').on('mouseout', function(e){
+$('img').on('mouseout', function(e){
      e.preventDefault();
     $(this).attr('src', 'dbc_logo.jpg');
   });
