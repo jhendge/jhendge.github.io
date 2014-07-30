@@ -80,6 +80,12 @@ ul {
     padding-bottom: 15px;
 }
 
+ol {
+    position: relative;
+    padding-left: 20px;
+    padding-bottom: 15px;
+}
+
 .italic{
     font-style: italic;
     font-family: 'Open Sans', sans-serif;
